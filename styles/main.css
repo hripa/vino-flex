@@ -1,0 +1,269 @@
+body{
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+   }
+   body ,h1, h2, h3, p {
+       margin: 0px;
+   }
+
+   a {
+       text-decoration: none;
+       color: black;
+   }
+
+   ul{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+.background{
+    background-image: url(../images/les.png) ;
+    background-size: cover;
+    height: 450px;
+
+}
+
+.wrap{
+    max-width: 1500px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+.opacity{
+    background-color: rgb(228, 228, 228);
+    opacity: 0.8;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.block-right{
+    text-align: right;
+    flex-basis: 800px;
+}
+
+.block-left{
+    flex-basis: 700px;
+}
+
+.cart{
+    display: inline-flex;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.navigation{
+    padding-top: 25px; 
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navigation a:hover {
+    color: green;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: rgb(199, 168, 168);
+    opacity: 0.8;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.left , .right , .center h2 {
+   text-align: center;
+   font-size: 35px;
+}
+
+.left , .right {
+    flex-basis: 400px;
+}
+
+.center h2{
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.up{
+  text-align: center;
+}
+
+.bg-center{
+    background-color: rgb(209, 209, 209);
+    padding: 15px;
+}
+
+.center input {
+    width: 230px;
+   
+}
+
+.center p {
+    padding: 18px 0 0 0;
+}
+
+.container-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.caption{
+    text-align: center;
+    background-color: black;
+    color: rgb(224, 217, 217);
+    font-size: 25px;
+    padding: 25px 0;
+}
+
+.foto-vino img{
+    width: 700px;
+} 
+
+.description{
+    font-size: 25px;
+    line-height: 29px;
+    padding-top: 25px;
+}
+
+.block-centered-left{
+     background-color: wheat;
+     padding: 18px;
+     flex-basis: 700px;
+     margin-left: -2px;
+    
+}
+
+.block-centered-right{
+    background-color: wheat;
+    padding: 18px;
+    flex-basis: 700px;
+    margin-left: 30px;
+   
+   
+}
+
+
+.container-order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-left{
+    line-height: 30px;
+}
+
+.order-right{
+    padding: 0 40px 25px 0;
+}
+
+.order-center input{
+    width: 50px;
+    height: 30px;;
+}
+
+.description , .container-order {
+    background-color: black;
+    color: rgb(224, 217, 217);
+    padding-left: 25px;
+}
+
+.bg-blac{
+background-color: black;
+}
+
+.container-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(199, 186, 186);
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+.discover{
+    width: 100%;
+    font-size: 90px;
+    text-align: center;
+}
+
+.block-bottom{
+    flex-basis: 270px;
+    margin: 25px;
+}
+
+.bg-footer{
+    background-color: rgb(27, 27, 27);
+    margin-top: 40px;   
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    width: 100%;
+    
+}
+
+.block-footer{
+    color: wheat;
+    flex-basis: 350px;
+    margin-top: 35px;
+}
+
+.info a{
+    color: wheat;
+    line-height: 25px;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+.fon{
+    display: flex;
+    align-items: center;
+}
+
+.mail p{
+padding-left:20px; 
+}
+
+.fon p{
+    padding-left: 37px; 
+}
+
+.fon img{
+    padding: 8px  0 0 12px;
+}
+
+.logotip img{
+margin-right: 25px;
+}
