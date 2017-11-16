@@ -20,10 +20,19 @@ body{
 
 .background{
     background-image: url(../images/les.png) ;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 450px;
-
+    background-position: center;
 }
+
+section{
+    background-image: url(../images/fonVerh.png)  ;
+    background-repeat: no-repeat;
+    background-position: top left = left top = 0% 0% ;
+   
+}
+
 
 .wrap{
     max-width: 1500px;
@@ -41,7 +50,7 @@ body{
 
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
     width: 100%;
@@ -51,10 +60,12 @@ body{
 .block-right{
     text-align: right;
     flex-basis: 800px;
+    text-align: right;
 }
 
 .block-left{
-    flex-basis: 700px;
+    flex-basis: 500px;
+    margin-right: 200px;
 }
 
 .cart{
@@ -140,7 +151,8 @@ body{
 }
 
 .foto-vino img{
-    width: 700px;
+    width: 706px;
+    margin: auto 0;
 } 
 
 .description{
@@ -153,17 +165,20 @@ body{
      background-color: wheat;
      padding: 18px;
      flex-basis: 700px;
-     margin-left: -2px;
-    
+}
+
+.marg-right{
+    margin-left: 8px;
+}
+
+.marg-left{
+    margin-right: 8px;
 }
 
 .block-centered-right{
     background-color: wheat;
     padding: 18px;
     flex-basis: 700px;
-    margin-left: 30px;
-   
-   
 }
 
 
@@ -201,14 +216,14 @@ background-color: black;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 100%;
     background-color: rgb(199, 186, 186);
     opacity: 0.8;
     margin-top: 50px;
 }
 
 .discover{
-    width: 100%;
+    min-width: 100%;
     font-size: 90px;
     text-align: center;
 }
